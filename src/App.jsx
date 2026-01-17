@@ -1,9 +1,11 @@
-import Hero from './components/Hero';
+import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   return (
     <div className="min-h-screen">
       <Hero />
+      <About />
     </div>
   );
 }
