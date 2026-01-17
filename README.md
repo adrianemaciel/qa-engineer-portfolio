@@ -1,16 +1,46 @@
-# React + Vite
+## 🚀 Adriane Oliveira Maciel | QA Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desenvolvido com foco em demonstrar minhas competências em Engenharia de Qualidade de Software e Automação de Testes.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias e Ferramentas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Desenvolvimento: React.js + Vite.
 
-## React Compiler
+- Estilização: Tailwind CSS (Focado em design responsivo e Dark Mode).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Ícones: Lucide React.
 
-## Expanding the ESLint configuration
+- Qualidade & Testes (Foco Principal): Cypress (Automação E2E).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧪 Foco em QA (Quality Assurance)
+
+Minha abordagem de desenvolvimento é guiada pelo STLC (Software Testing Life Cycle), garantindo que a qualidade não seja apenas uma etapa final, mas parte integrante do processo.
+
+- Automação: Criação de scripts com Cypress para validação de fluxos de UI.
+
+- Metodologias: Escrita de cenários em Gherkin/BDD.
+
+## 🔧 Como rodar o projeto localmente
+
+Clone o repositório:
+
+```Bash
+
+git clone https://github.com/adrianemaciel/qa-engineer-portfolio.git
+
+```
+
+Instale as dependências:
+
+```Bash
+
+npm install
+
+```
+
+Inicie o servidor de desenvolvimento:
+
+```sssBash
+
+npm run dev
+```
