@@ -1,4 +1,4 @@
-import { Mail, Linkedin, MapPin } from "lucide-react";
+import { Linkedin, MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -26,14 +26,7 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-          <a
-            href="#contact"
-            className="bg-[#00bcd4] hover:bg-[#00acc1] text-[#0a1120] px-6 py-3 rounded-lg font-bold flex items-center gap-2 transition-all"
-          >
-            <Mail className="h-5 w-5" />
-            Entre em Contato
-          </a>
-
+          sss
           <a
             href="#experience"
             className="border border-[#00bcd4] text-[#00bcd4] hover:bg-[#00bcd4]/10 px-6 py-3 rounded-lg font-bold flex items-center gap-2 transition-all"
@@ -55,7 +48,7 @@ const Hero = () => {
           <span className="text-slate-600">•</span>
           <div className="flex items-center gap-2">
             <MapPin className="h-5 w-5" />
-            <span className="text-sm">Rio Grande do Sul, RS - Brasil</span>
+            <span className="text-sm">Rio Grande do Sul, Brasil</span>
           </div>
         </div>
       </div>
