@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test": "cypress run",
+    "test:open": "cypress open",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -22,6 +24,7 @@
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.4",
+    "baseline-browser-mapping": "^2.9.17",
     "cypress": "^15.9.0",
     "eslint": "^9.36.0",
     "eslint-plugin-cypress": "^5.2.1",

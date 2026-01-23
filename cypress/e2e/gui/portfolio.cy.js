@@ -5,9 +5,18 @@ describe("Validação do Portfólio - Adriane Oliveira Maciel", () => {
 
   it("Deve carregar o Hero com o título e cargo corretos", () => {
     cy.contains("h1", "Adriane Oliveira Maciel").should("be.visible");
-    cy.contains("Analista de Qualidade de Software Júnior").should(
+    cy.contains("Analista de Testes e Qualidade de Software Júnior").should(
       "be.visible",
     );
+  });
+
+  it("Deve validar o direcionamento para um link externo de LinkedIn e GitHub", () => {
+    cy.get('a[href="https://linkedin.com/in/adrianemaciel"]')
+      .should("have.attr", "target", "_blank")
+      .click();
+    cy.get('a[href="https://github.com/adrianemaciel"]')
+      .should("have.attr", "target", "_blank")
+      .click();
   });
 
   it("Deve validar a navegação suave para a seção Experiência", () => {
