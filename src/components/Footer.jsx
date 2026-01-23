@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto text-center">
         <p className="text-sm text-slate-400 font-medium tracking-wide">
           © {new Date().getFullYear()} Adriane Oliveira Maciel. Todos os
-          direitos reservados.s
+          direitos reservados.
         </p>
       </div>
     </footer>
