@@ -11,7 +11,7 @@ const Education = () => {
     },
     {
       title: "QA para Times Ágeis",
-      institution: "Code Like a Tester |Udemy",
+      institution: "Code Like a Tester | Udemy",
       status: "01/2026",
       description: "Qualidade Ágil e Framework Scrum.",
     },
@@ -57,7 +57,7 @@ const Education = () => {
           </div>
         </div>
 
-        <h3 className="text-2xl font-bold mb-8 text-center text-white">
+        <h3 className="text-3xl md:text-4xl font-bold mb-8 text-center text-white">
           Cursos e <span className="text-[#00bcd4]">Certificações</span>
         </h3>
 

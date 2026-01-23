@@ -1,4 +1,5 @@
-import { Linkedin, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -15,18 +16,18 @@ const Hero = () => {
           Adriane Oliveira Maciel
         </h1>
 
-        <p className="text-2xl md:text-3xl text-slate-300 mb-8">
-          Analista de Qualidade de Software Júnior
+        <p className="text-2xl md:text-3xl text-slate-300 mb-8 font-semibold">
+          Analista de Testes e Qualidade de Software Júnior
         </p>
 
         <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Profissional em Análise e Desenvolvimento de Sistemas com foco em QA.
-          Conhecimento sólido no STLC, automação de testes com Cypress e
-          Postman, e metodologias ágeis.
+          Graduada em Análise e Desenvolvimento de Sistemas com foco em{" "}
+          <strong>Engenharia de Qualidade</strong> para garantir a excelência de
+          software através de testes manuais, automação com{" "}
+          <strong>Cypress</strong> e vivência em metodologias ágeis.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-          sss
           <a
             href="#experience"
             className="border border-[#00bcd4] text-[#00bcd4] hover:bg-[#00bcd4]/10 px-6 py-3 rounded-lg font-bold flex items-center gap-2 transition-all"
@@ -35,19 +36,33 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="flex items-center justify-center gap-6 text-slate-400">
+        <div className="flex flex-wrap items-center justify-center gap-6 text-slate-400">
           <a
             href="https://linkedin.com/in/adrianemaciel"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-[#00bcd4] transition-colors"
           >
-            <Linkedin className="h-5 w-5" />
-            <span className="text-sm">LinkedIn</span>
+            <FaLinkedin className="h-5 w-5" />
+            <span className="text-sm font-medium">LinkedIn</span>
           </a>
-          <span className="text-slate-600">•</span>
+
+          <span className="hidden md:inline text-slate-600">•</span>
+
+          <a
+            href="https://github.com/adrianemaciel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-[#00bcd4] transition-colors"
+          >
+            <FaGithub className="h-5 w-5" />
+            <span className="text-sm font-medium">GitHub</span>
+          </a>
+
+          <span className="hidden md:inline text-slate-600">•</span>
+
           <div className="flex items-center gap-2">
-            <MapPin className="h-5 w-5" />
+            <MapPin className="h-5 w-5 text-[#00bcd4]" />
             <span className="text-sm">Rio Grande do Sul, Brasil</span>
           </div>
         </div>
