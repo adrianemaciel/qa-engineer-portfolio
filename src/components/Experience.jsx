@@ -33,23 +33,25 @@ const Experience = () => {
                 <li className="flex items-start gap-2">
                   <span className="text-[#00bcd4] mt-1">•</span>
                   <span>
-                    Gestão de Defeitos: Atuação na identificação, triagem,
-                    priorização e reporte detalhado para a engenharia
+                    <strong>Gestão de Defeitos:</strong> Atuação na
+                    identificação, triagem, priorização e reporte detalhado para
+                    a engenharia.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#00bcd4] mt-1">•</span>
                   <span>
-                    Análise Técnica: Apoio na documentação de sistemas,
-                    utilizando conhecimentos em JavaScript para validar a
-                    arquitetura Front-end
+                    <strong>Análise Técnica:</strong> Apoio na documentação de
+                    sistemas, utilizando conhecimentos em JavaScript para
+                    validar a arquitetura Front-end.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#00bcd4] mt-1">•</span>
                   <span>
-                    Suporte e Qualidade: Gestão de chamados via Help Desk
-                    (GLPI/IT2M), garantindo a conformidade das entregas
+                    <strong>Suporte e Qualidade:</strong> Gestão de chamados via
+                    Help Desk (GLPI/IT2M), garantindo a conformidade das
+                    entregas.
                   </span>
                 </li>
               </ul>
