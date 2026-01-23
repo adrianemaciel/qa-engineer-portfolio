@@ -16,14 +16,15 @@ const Hero = () => {
           Adriane Oliveira Maciel
         </h1>
 
-        <p className="text-2xl md:text-3xl text-slate-300 mb-8">
-          Analista de Qualidade de Software Júnior
+        <p className="text-2xl md:text-3xl text-slate-300 mb-8 font-semibold">
+          Analista de Testes e Qualidade de Software Júnior
         </p>
 
         <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Graduada em Análise e Desenvolvimento de Sistemas com foco em QA e em
-          garantir a excelência de software através de testes manuais, automação
-          com Cypress e vivência em metodologias ágeis.
+          Graduada em Análise e Desenvolvimento de Sistemas com foco em{" "}
+          <strong>Engenharia de Qualidade</strong> para garantir a excelência de
+          software através de testes manuais, automação com{" "}
+          <strong>Cypress</strong> e vivência em metodologias ágeis.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
@@ -35,7 +36,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="flex items-center justify-center gap-6 text-slate-400">
+        <div className="flex flex-wrap items-center justify-center gap-6 text-slate-400">
           <a
             href="https://linkedin.com/in/adrianemaciel"
             target="_blank"
@@ -43,22 +44,25 @@ const Hero = () => {
             className="flex items-center gap-2 hover:text-[#00bcd4] transition-colors"
           >
             <FaLinkedin className="h-5 w-5" />
-            <span className="text-sm">LinkedIn</span>
+            <span className="text-sm font-medium">LinkedIn</span>
           </a>
-          <span className="text-slate-600">•</span>
+
+          <span className="hidden md:inline text-slate-600">•</span>
 
           <a
-            href="https://github.com/sadrianemaciel"
+            href="https://github.com/adrianemaciel"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-[#00bcd4] transition-colors"
           >
             <FaGithub className="h-5 w-5" />
-            <span className="text-sm">GitHub</span>
+            <span className="text-sm font-medium">GitHub</span>
           </a>
-          <span className="text-slate-600">•</span>
+
+          <span className="hidden md:inline text-slate-600">•</span>
+
           <div className="flex items-center gap-2">
-            <MapPin className="h-5 w-5" />
+            <MapPin className="h-5 w-5 text-[#00bcd4]" />
             <span className="text-sm">Rio Grande do Sul, Brasil</span>
           </div>
         </div>
