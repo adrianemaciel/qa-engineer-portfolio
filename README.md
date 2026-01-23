@@ -25,22 +25,49 @@ Minha abordagem de desenvolvimento é guiada pelo STLC (Software Testing Life Cy
 Clone o repositório:
 
 ```Bash
-
 git clone https://github.com/adrianemaciel/qa-engineer-portfolio.git
-
 ```
 
 Instale as dependências:
 
 ```Bash
-
 npm install
-
 ```
 
 Inicie o servidor de desenvolvimento:
 
-```sssBash
-
+```Bash
 npm run dev
 ```
+
+Executando os testes (Cypress):
+
+- Modo Headless (Terminal)
+  Ideal para integração contínua (CI/CD), executa todos os testes rapidamente sem abrir interface visual:
+
+```Bash
+npm test
+```
+
+- Modo Interativo (Interface Visual)
+  Ideal para acompanhar a execução dos testes em tempo real e realizar debug:
+
+```Bash
+npm run test:open
+```
+
+### 📸 Evidências de Testes
+
+Execução da suíte de testes (Smoke Tests) com todos os testes passando.
+
+<details>
+  <summary>Clique para ver as capturas de tela dos testes</summary>
+  
+  <br>
+  <strong>Terminal:</strong><br>
+  <img src="./src/assets/modo-headless-terminal.png" width="600">
+  
+  <br><br>
+  <strong>Interface Visual:</strong><br>
+  <img src="./src/assets/modo-interativo-interface-visual.png" width="600">
+</details>
