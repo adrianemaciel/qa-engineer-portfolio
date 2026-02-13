@@ -4,25 +4,20 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: TestTube2,
-      title: "Garantia da Qualidade (QA)",
+      title: "Testes e QA",
       skills: [
-        "Planos/Casos de Testes",
-        "Testes Manuais",
+        "Planejamento de testes",
+        "Elaboração de planos e casos de teste",
         "Testes Funcionais",
         "Testes de Integração",
-        "Testes Regressivos",
         "Testes Exploratórios",
+        "Gestão, triagem e reporte técnico de defeitos",
       ],
     },
     {
       icon: Wrench,
-      title: "Automação de Testes",
-      skills: ["Cypress", "Postman"],
-    },
-    {
-      icon: Code2,
-      title: "Desenvolvimento e Versionamento",
-      skills: ["JavaScript", "Git", "GitHub"],
+      title: "Automação e Ferramentas",
+      skills: ["Cypress", "Postman", "Git", "GitHub"],
     },
     {
       icon: Users,
@@ -44,7 +39,7 @@ const Skills = () => {
           Habilidades <span className="text-[#00bcd4]">Técnicas</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
             <div
               key={index}

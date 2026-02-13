@@ -16,7 +16,7 @@ const Experience = () => {
               <div className="flex items-center gap-2 mb-2 md:justify-end">
                 <Briefcase className="h-5 w-5 text-[#00bcd4]" />
                 <h3 className="text-xl font-semibold text-white">
-                  Suporte de TI
+                  Estagiária em Tecnologia da Informação
                 </h3>
               </div>
 
@@ -33,25 +33,40 @@ const Experience = () => {
                 <li className="flex items-start gap-2">
                   <span className="text-[#00bcd4] mt-1">•</span>
                   <span>
-                    <strong>Gestão de Defeitos:</strong> Atuação na
-                    identificação, triagem, priorização e reporte detalhado para
-                    a engenharia.
+                    Gerenciamento de incidentes e solicitações via Help Desk
+                    (GLPI/IT2M), garantindo organização e rastreabilidade dos
+                    chamados de +130 UBS;
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#00bcd4] mt-1">•</span>
                   <span>
-                    <strong>Análise Técnica:</strong> Apoio na documentação de
-                    sistemas, utilizando conhecimentos em JavaScript para
-                    validar a arquitetura Front-end.
+                    Redução do tempo de triagem de defeitos em aproximadamente
+                    30% por meio de análise técnica e priorização adequada;
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#00bcd4] mt-1">•</span>
                   <span>
-                    <strong>Suporte e Qualidade:</strong> Gestão de chamados via
-                    Help Desk (GLPI/IT2M), garantindo a conformidade das
-                    entregas.
+                    Identificação, documentação e reporte de +80 defeitos em
+                    sistemas de saúde (Gercon, Dis, Gmat e etc.) com evidências,
+                    passos de reprodução, severidade e prioridade;
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#00bcd4] mt-1">•</span>
+                  <span>
+                    Atuação em ambiente ágil, colaborando com desenvolvedores e
+                    stakeholders;
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#00bcd4] mt-1">•</span>
+                  <span>
+                    Criação e atualização de artigos de autoatendimento e
+                    materiais de apoio para a base de conhecimento técnico
+                    reduzindo em aproximadamente 30% no tempo de resposta e
+                    resolução;
                   </span>
                 </li>
               </ul>
